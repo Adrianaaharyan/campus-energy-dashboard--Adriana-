@@ -10,22 +10,22 @@ timestamp,kwh
 2024-01-01 01:00,42
 Metadata (building, month) is extracted from filenames.
 ## Methodology
-1.Data Ingestion
+### Data Ingestion
 Auto-detect CSV files
 Clean column names, fix BOM issues
 Convert timestamps to datetime
 Merge all building files into one DataFrame
-2.Aggregation
+### Aggregation
 Daily totals via resample("D")
 Weekly totals via resample("W")
 Building-level summary (mean, min, max, total kWh)
-3.OOP Modeling
+### OOP Modeling
 Building, MeterReading, and BuildingManager classes
 Supports scalable building-level reporting
-4.Visualization
+### Visualization
 Dashboard with daily trends, weekly comparisons, and peak-hour scatter
 Saved as output/dashboard.png
-5.Reporting
+### Reporting
 Export cleaned data (cleaned_energy_data.csv)
 Export building summary (building_summary.csv)
 Generate executive summary (summary.txt)
