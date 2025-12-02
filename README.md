@@ -35,22 +35,22 @@ Highlights peak load hours
 Shows daily and weekly usage patterns
 Enables comparison of energy efficiency across buildings
 # 📁 Output Structure
-project-folder/
+### project-folder/
 │
-├── data/
-│   ├── BuildingA_2024-01.csv
-│   ├── BuildingB_2024-01.csv
-│   └── ... (add more CSV files here)
+### data/
+#### BuildingA_2024-01.csv
+#### BuildingB_2024-01.csv
+#### ... (add more CSV files here)
 │
-├── output/
-│   ├── cleaned_energy_data.csv      → Cleaned + merged full dataset
-│   ├── building_summary.csv         → Stats per building (mean, min, max, total)
-│   ├── dashboard.png                → Combined matplotlib dashboard (3 plots)
-│   ├── summary.txt                  → Executive summary report
-│   ├── ingestion.log                → Log of read files + errors
+### output/
+#### cleaned_energy_data.csv      → Cleaned + merged full dataset
+#### building_summary.csv         → Stats per building (mean, min, max, total)
+#### dashboard.png                → Combined matplotlib dashboard (3 plots)
+#### summary.txt                  → Executive summary report
+#### ingestion.log                → Log of read files + errors
 │
-├── ingest.py
-├── aggregations.py
-├── visualize.py
-├── summary.py
-└── run_all.py                       → Main script you run
+### ingest.py
+### aggregations.py
+### visualize.py
+### summary.py
+### run_all.py                       → Main script you run
