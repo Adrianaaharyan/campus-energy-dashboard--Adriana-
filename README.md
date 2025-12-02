@@ -49,8 +49,8 @@ Enables comparison of energy efficiency across buildings
 #### summary.txt                  → Executive summary report
 #### ingestion.log                → Log of read files + errors
 │
-### ingest.py
-### aggregations.py
-### visualize.py
-### summary.py
-### run_all.py                       → Main script you run
+#### ingest.py
+#### aggregations.py
+#### visualize.py
+#### summary.py
+#### run_all.py                       → Main script you run
